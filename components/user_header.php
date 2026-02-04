@@ -18,7 +18,7 @@ if(isset($message)){
       <a href="index.php" class="logo">yum-yum 😋</a>
 
       <nav class="navbar">
-         <a href="index.php">index</a>
+         <a href="index.php">home</a>
          <a href="about.php">about</a>
          <a href="menu.php">menu</a>
          <a href="orders.php">orders</a>
@@ -34,6 +34,7 @@ if(isset($message)){
             $total_cart_items = $count_cart_items->rowCount();
          ?>
          <a href="cart.php"><i class="fas fa-shopping-cart"></i><span>(<?= $total_cart_items; ?>)</span></a>
+          <!-- <div id="theme-btn" class="fas fa-moon"></div>  -->
          <div id="user-btn" class="fas fa-user"></div>
          <div id="menu-btn" class="fas fa-bars"></div>
       </div>
