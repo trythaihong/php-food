@@ -200,6 +200,7 @@ themeBtn.onclick = () => {
    }else{
       localStorage.setItem('theme','light');
       themeBtn.classList.replace('fa-sun','fa-moon');
+      
    }
 }
 </script>

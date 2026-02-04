@@ -33,6 +33,7 @@ if(isset($_POST['update_qty'])){
    $message[] = 'cart quantity updated';
 }
 
+
 $grand_total = 0;
 
 ?>
