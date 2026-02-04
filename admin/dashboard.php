@@ -8,7 +8,7 @@ $admin_id = $_SESSION['admin_id'];
 
 if(!isset($admin_id)){
    header('location:admin_login.php');
-}
+}8
 
 ?>
 
@@ -56,7 +56,7 @@ if(!isset($admin_id)){
       ?>
       <h3><span>$</span><?= $total_pendings; ?><span>/-</span></h3>
       <p>total pendings</p>
-      <a href="placed_orders.php" class="btn">see orders</a>
+      <a href="placed_orders.php" class="btn">see order pending</a>
    </div>
 
    <div class="box">
@@ -70,7 +70,7 @@ if(!isset($admin_id)){
       ?>
       <h3><span>$</span><?= $total_completes; ?><span>/-</span></h3>
       <p>total completes</p>
-      <a href="placed_orders.php" class="btn">see orders</a>
+      <a href="placed_orders.php" class="btn">see order complete</a>
    </div>
 
    <div class="box">
@@ -81,7 +81,7 @@ if(!isset($admin_id)){
       ?>
       <h3><?= $numbers_of_orders; ?></h3>
       <p>total orders</p>
-      <a href="placed_orders.php" class="btn">see orders</a>
+      <a href="placed_orders.php" class="btn">see total orders</a>
    </div>
 
    <div class="box">
@@ -132,7 +132,7 @@ if(!isset($admin_id)){
 
 </section>
 
-<!-- admin dashboard section ends -->
+
 
 
 

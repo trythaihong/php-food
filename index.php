@@ -122,7 +122,6 @@ include 'components/add_cart.php';
    <h1 class="title">latest dishes</h1>
 
    <div class="box-container">
-
       <?php
          $select_products = $conn->prepare("SELECT * FROM `products` LIMIT 6");
          $select_products->execute();
@@ -181,29 +180,7 @@ var swiper = new Swiper(".hero-slider", {
 
 </script>
 
-<script>
-let themeBtn = document.querySelector('#theme-btn');
 
-// Load saved theme
-if(localStorage.getItem('theme') === 'dark'){
-   document.body.classList.add('dark');
-   themeBtn.classList.replace('fa-moon','fa-sun');
-}
-
-// Click toggle
-themeBtn.onclick = () => {
-   document.body.classList.toggle('dark');
-
-   if(document.body.classList.contains('dark')){
-      localStorage.setItem('theme','dark');
-      themeBtn.classList.replace('fa-moon','fa-sun');
-   }else{
-      localStorage.setItem('theme','light');
-      themeBtn.classList.replace('fa-sun','fa-moon');
-      
-   }
-}
-</script>
 
 
 </body>
