@@ -1,5 +1,5 @@
 <?php  
-$db_name = 'mysql:host=localhost;port=3307;dbname=food_db'; 
+$db_name = 'mysql:host=localhost;port=3306;dbname=food_db'; 
 $user_name = 'root'; 
 $user_password = '';  
 
